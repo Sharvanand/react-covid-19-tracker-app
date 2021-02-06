@@ -14,10 +14,18 @@ body {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
 .app__left {
   flex: 0.9;
 }
 
+.app__dropdown {
+  background-color: #fff;
+}
 .app_stats {
   display: flex;
   justify-content: space-between;
